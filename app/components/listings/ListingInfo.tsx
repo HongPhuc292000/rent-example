@@ -2,11 +2,11 @@
 
 import useCountries from "@/app/hooks/useCountries";
 import { SafeUser } from "@/app/types";
-import React, { use } from "react";
+import React from "react";
 import { IconType } from "react-icons";
 import Avatar from "../Avatar";
-import ListingCategory from "./ListingCategory";
 import Map from "../Map";
+import ListingCategory from "./ListingCategory";
 
 interface ListingInfoProps {
   user: SafeUser;
